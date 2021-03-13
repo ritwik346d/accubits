@@ -1,0 +1,13 @@
+
+provider "aws" {
+  region = "us-east-1"
+}
+
+
+variable "www_domain_name" {
+  default = "www.example.io"
+}
+
+variable "root_domain_name" {
+  default = "example.io"
+}
